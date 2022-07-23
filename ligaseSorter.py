@@ -1,8 +1,8 @@
 import os
 import shutil
 
-Fdirectory = os.fsencode("C:\ASDRP\ML-DD\PDB Sort\FASTA dataset - Copy") #Set this to whatever directory has the files
-Rdirectory = os.fsencode("C:\ASDRP\ML-DD\PDB Sort\Sorted Sequences") #Set this to the directory where you want the correct files to be stored
+Fdirectory = os.fsencode("FASTA dataset") #Set this to whatever directory has the files
+Rdirectory = os.fsencode("Sorted Sequences") #Set this to the directory where you want the correct files to be stored
 goodFiles = []
 count = 0
 
